@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API\V1;
 
-use App\Http\Resources\ReportsResourceCollection;
+use App\Http\Controllers\Controller;
 use App\Services\CovidDataService;
 use Illuminate\Http\Request;
 
